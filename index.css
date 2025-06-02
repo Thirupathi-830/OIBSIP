@@ -1,4 +1,4 @@
-/* Main styles for the website */
+
 * {
   margin: 0;
   padding: 0;
@@ -12,7 +12,7 @@ body {
   line-height: 1.6;
 }
 
-/* Top navigation bar */
+
 .header {
   background: white;
   padding: 15px 30px;
@@ -26,7 +26,6 @@ body {
   box-shadow: 0 2px 10px rgba(0,0,0,0.1);
 }
 
-/* Logo styling */
 .logo {
   display: flex;
   align-items: center;
@@ -50,7 +49,7 @@ body {
   line-height: 40px;
 }
 
-/* Navigation menu */
+
 .nav {
   display: flex;
   align-items: center;
@@ -71,7 +70,7 @@ body {
   background: #f0f7ff;
 }
 
-/* Hero section with background image */
+
 .hero {
   background: url('https://images.unsplash.com/photo-1611974789855-9c2a0a7236a3?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
   height: 100vh;
@@ -112,7 +111,6 @@ body {
   opacity: 0.9;
 }
 
-/* Button styles */
 .btn {
   display: inline-block;
   padding: 12px 25px;
@@ -144,7 +142,7 @@ body {
   background: rgba(255, 255, 255, 0.1);
 }
 
-/* Main content sections */
+
 .section {
   padding: 80px 30px;
   max-width: 1200px;
@@ -159,7 +157,7 @@ body {
   font-size: 32px;
 }
 
-/* Features section */
+
 .features-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -191,7 +189,7 @@ body {
   list-style: none;
 }
 
-/* Testimonials section */
+
 .testimonials {
   background: url('https://images.unsplash.com/photo-1554224155-6726b3ff858f?auto=format&fit=crop&w=1920&q=80') no-repeat center center/cover;
   position: relative;
@@ -231,7 +229,7 @@ body {
   font-weight: 600;
 }
 
-/* Pricing section */
+
 .pricing-grid {
   display: flex;
   gap: 30px;
@@ -284,7 +282,7 @@ body {
   list-style: none;
 }
 
-/* Footer */
+
 .footer {
   background: #1f2937;
   padding: 40px 30px;
@@ -329,8 +327,6 @@ body {
   padding-top: 30px;
   border-top: 1px solid rgba(255,255,255,0.1);
 }
-
-/* Responsive Design */
 @media (max-width: 768px) {
   .hero-title {
     font-size: 40px;
